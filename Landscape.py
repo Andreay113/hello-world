@@ -135,7 +135,7 @@ while running:
 # sun / day
     pygame.draw.circle(screen, yellow, [sun_x, sun_y], 40)
     pygame.draw.circle(screen, moon_grey, [moon_x, moon_y], 30)
-    pygame.draw.circle(screen, blue, [moon_x + moon_change + 15, moon_y], 20)
+    pygame.draw.circle(screen, blue, [moon_x + 15, moon_y], 20)
     if sun_x >= WIDTH/4 * 3:
         sun_x -= 2
         sun_y -= 1/2
